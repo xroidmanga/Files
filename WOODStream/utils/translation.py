@@ -14,13 +14,13 @@ class LANG(object):
 <b>- sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴅᴏᴄᴜᴍᴇɴᴛ ᴏʀ ᴍᴇᴅɪᴀ</b>
 <b>- ɪ'ʟʟ ᴘʀᴏᴠɪᴅᴇ sᴛʀᴇᴀᴍᴀʙʟᴇ ʟɪɴᴋ</b>\n
 <b>🔞 ᴀᴅᴜʟᴛ ᴄᴏɴᴛᴇɴᴛ sᴛʀɪᴄᴛʟʏ ᴘʀᴏʜɪʙɪᴛᴇᴅ.</b>\n
-<i><b> ʀᴇᴘᴏʀᴛ ʙᴜɢs ᴛᴏ <a href='https://telegram.me/Opleech_WD'>❖ 𝐖𝐃 𝐙𝐎𝐍𝐄 ❖ ™</a></b></i>"""
+<i><b> ʀᴇᴘᴏʀᴛ ʙᴜɢs ᴛᴏ <a href='https://telegram.me/usefull_botz'>Channel™</a></b></i>"""
 
     ABOUT_TEXT = """
 <b>⚜ ᴍʏ ɴᴀᴍᴇ : {}</b>\n
-<b>✦ ᴠᴇʀsɪᴏɴ : {}</b>
-<b>✦ ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ : 24-April-2024</b>
-<b>✦ 𝐖𝐃 𝐙𝐎𝐍𝐄 ™ : <a href='https://telegram.me/Opleech_WD'>❖ 𝐖𝐃 𝐙𝐎𝐍𝐄 ❖ ™</a></b>\n
+<b>⚜ ᴠᴇʀsɪᴏɴ : {}</b>
+<b>⚜ ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ : 24-April-2024</b>
+<b>🛐 : <a href='https://telegram.me/usefull_botz'>Owner™</a></b>\n
 """
 
     STREAM_TEXT = """
