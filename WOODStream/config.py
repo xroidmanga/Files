@@ -10,10 +10,10 @@ class Telegram:
     OWNER_ID = int(env.get('OWNER_ID', '7577976169'))
     WORKERS = int(env.get("WORKERS", "6"))  # 6 workers = 6 commands at once
     DATABASE_URL = str(env.get('DATABASE_URL'))
-    UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', "uzefull_botz"))
+    UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', "usefull_botz"))
     SESSION_NAME = str(env.get('SESSION_NAME', 'WOODStream'))
     FORCE_SUB_ID = env.get('FORCE_SUB_ID', None)
-    FORCE_SUB = env.get('FORCE_UPDATES_CHANNEL', False)
+    FORCE_SUB = env.get('FORCE_UPDATES_CHANNEL', True)
     FORCE_SUB = True if str(FORCE_SUB).lower() == "true" else False
     SLEEP_THRESHOLD = int(env.get("SLEEP_THRESHOLD", "60"))
     FILE_PIC = env.get('FILE_PIC', "https://i.ibb.co/NnKTp1kd/IMG-20250526-092053-167.jpg")
@@ -24,7 +24,7 @@ class Telegram:
     ULOG_CHANNEL = int(env.get("ULOG_CHANNEL", None))   # Logs channel for user logs
     MODE = env.get("MODE", "primary")
     SECONDARY = True if MODE.lower() == "secondary" else False
-    AUTH_USERS = list(set(int(x) for x in str(env.get("AUTH_USERS", "7577976169")).split()))
+    AUTH_USERS = list(set(int(x) for x in str(env.get("AUTH_USERS", "")).split()))
 
 class Server:
     PORT = int(env.get("PORT", 8080))
